@@ -2,11 +2,11 @@
 PowerShell based script set for analysis of SDP reports (former RFLcheck)
 
 ## Check RFL/SDP Setup and installation instruction
-=================================================
+
 we recommend to use a team share 'ToolsShare' on a TeamServer '\\TeamServer', in order to minimize monthly maintenance.
 if you are sharing the RFL scripts on a different \\TeamServer\ToolsShare please globally replace all '\\TeamServer\ToolsShare' in all *.PS1 files, and also replace 'localhost\\ToolsShare'  in *.reg files
 
-If  using a TeamServer:
+If  using a *TeamServer*:
 1. Create a new Share named 'ToolsShare' 
 2. Expand the RFL.zip into the \\TeamServer\ToolsShare
 3. for all .PS1 files: globally replace '\\LocalHost\ToolsShareRFL' with '\\TeamServer\ToolsShare'
@@ -14,7 +14,7 @@ If  using a TeamServer:
 5. on your own PC: DoubleClick the reg file \\TeamServer\ToolsShare\RFL\Rfl-Check_ShellExtension_V2-Add.reg
 
 
-If  using your own PC:
+If  using your *own PC*:
 1. Create a new Share named 'ToolsShare' 
 2. Expand the RFL.zip into the \\LocalHost\ToolsShare
 3. N/A - (*.PS1 files files already point to '\\LocalHost\ToolsShare')
