@@ -2,7 +2,7 @@
 PowerShell based script set for analysis of SDP reports (former RFLcheck)
 
 ## Purpose
-rapidly determine missing MS hotfixes or monthly cumulative updates on server or client machines
+rapidly determine missing MS hotfixes or monthly cumulative updates on server or client machines, and more checks...
 
 ## Check_RFL/SDP setup and installation instructions
 
@@ -28,7 +28,16 @@ Now you can use the Explorer context menu on any extracted SDP folder.
 
 The RFLcheck will automaticaly try to open resulting `*.txt` files in your favorite text Editor (default is NotePad.exe);
 
-hint: if you register `*.txt` files to be opend with a more sophisticated editor like Notepad++ or TextPad, all result files will open as additional Tabs in your text Editor.
+**hint**: if you register `*.txt` files to be opend with a more sophisticated editor like Notepad++ or TextPad, all result files will open as additional Tabs in your text Editor.
 
-
-
+## What is RFLcheck? 
+RFLcheck is a set of Explorer Plugin and PowerShell scripts that enables engineers to identify missing Hotfixes in a customer supplied SDP report. 
+Useful add-ons are 
+- checks for 3rd party drivers (Pstat), 
+- checks for incorrect or changed Registry settings, 
+- PerformanceMonitorAnalysis (PMA), 
+- Pstat-Compare, 
+- Event-summary up to 6h before SDP collection, 
+- check for specific Events, 
+- re-Arrange-SDPFolders (for Cluster)
+Details see in MS internal KB3070416
