@@ -2,7 +2,7 @@
 PowerShell based script set for analysis of SDP reports (former RFLcheck)
 
 ## Purpose
-rapidly determine missing MS hotfixes or monthly cumulative updates on server or client machines, and more checks...
+rapidly determine missing MS hotfixes or monthly cumulative updates on server or client machines, and more automated checks...
 
 ## Check_RFL/SDP setup and installation instructions
 
@@ -40,4 +40,5 @@ Useful add-ons are
 - Event-summary up to 6h before SDP collection, 
 - check for specific Events, 
 - re-Arrange-SDPFolders (for Cluster)
-Details see in MS internal KB3070416
+
+For details see MS internal KB3070416
