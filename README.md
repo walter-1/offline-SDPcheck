@@ -19,7 +19,7 @@ If  using a **TeamServer**:
 
 If  using your **own PC**:
 1. Create a new Share named 'ToolsShare' 
-2. Expand the RFL.zip into the `\\LocalHost\ToolsShare`
+2. Expand the RFL.zip into the `\\LocalHost\ToolsShare\Rfl`
 3. N/A - (*.PS1 files files already point to `\\LocalHost\ToolsShare`)
 4. N/A - (Rfl-Check_ShellExtension*.reg files already point to `\\\\LocalHost\\ToolsShare`)
 3. on your own PC: DoubleClick the reg file `\\LocalHost\ToolsShareRFL\Rfl-Check_ShellExtension_V2-Add.reg`
