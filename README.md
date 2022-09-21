@@ -24,7 +24,8 @@ If  using your **own PC**:
 2. Expand the RFL.zip into the `\\LocalHost\ToolsShare\RFL`
 3. N/A - (*.PS1 files files already point to `\\LocalHost\ToolsShare`)
 4. N/A - (Rfl-Check_ShellExtension*.reg files already point to `\\\\LocalHost\\ToolsShare`)
-3. on your own PC: DoubleClick the reg file `\\LocalHost\ToolsShare\RFL\Rfl-Check_ShellExtension.reg`
+5. on your own PC: DoubleClick the reg file `\\LocalHost\ToolsShare\RFL\Rfl-Check_ShellExtension.reg`
+6. SDPheck will automatically update the database files if your PC has internet connection
 
 Now you can use the Explorer context menu on any extracted SDP folder.
 
