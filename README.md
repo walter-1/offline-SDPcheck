@@ -1,7 +1,7 @@
 # offline-SDPcheck
-PowerShell based script set for analysis of SDP reports (former RFLcheck)
+PowerShell based script set for analysis of SDP reports (former known as RFLcheck)
 
-**Download** latest version from https://github.com/walter-1/offline-SDPcheck/releases/
+**Download** latest version from aka.ms/getRFL (or  https://github.com/walter-1/offline-SDPcheck/releases/ )
 
 ## Purpose
 rapidly determine missing MS hotfixes or monthly cumulative updates on server or client machines, and more automated checks...
@@ -9,14 +9,14 @@ rapidly determine missing MS hotfixes or monthly cumulative updates on server or
 ## Check_RFL/SDP setup and installation instructions
 
 We recommend to use a team share 'ToolsShare' on a TeamServer `\\TeamServer`, in order to minimize monthly maintenance.
-if you are sharing the RFL scripts on a `\\TeamServer\ToolsShare\RFL` please globally replace all strings `\\TeamServer\ToolsShare\RFL` in all `\\TeamServer\ToolsShare\RFL\*.PS1` files, and also replace `localhost\\ToolsShare\RFL`  in `\\TeamServer\ToolsShare\RFL\*.reg` files
+if you are sharing the RFL scripts on a `\\TeamServer\ToolsShare\RFL` please edit the file **version_SDPcheck.dat** and replace `\\localhost\ToolsShare\rfl` with `\\TeamServer\ToolsShare\RFL`, and also replace `localhost\\ToolsShare\RFL`  in `\\TeamServer\ToolsShare\RFL\*.reg` files
 
 If  using a **TeamServer**:
 1. Create a new Share named 'ToolsShare' 
 2. Expand the RFL.zip into the `\\TeamServer\ToolsShare\RFL`
-3. for all .PS1 files: globally replace `\\LocalHost\ToolsShare\RFL` with `\\TeamServer\ToolsShare\RFL`
+3. edit the file **version_SDPcheck.dat** and replace `\\localhost\ToolsShare\rfl` with `\\TeamServer\ToolsShare\RFL`
 4. Edit the Rfl-Check_ShellExtension*.reg files and replace `\\\\LocalHost\\ToolsShare` with `\\\\TeamServer\\ToolsShare`
-5. on your own PC: DoubleClick the reg file `\\TeamServer\ToolsShare\RFL\Rfl-Check_ShellExtension_V2-Add.reg`
+5. on your own PC: DoubleClick the reg file `\\TeamServer\ToolsShare\RFL\Rfl-Check_ShellExtension.reg`
 
 
 If  using your **own PC**:
