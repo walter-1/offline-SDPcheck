@@ -11,6 +11,7 @@ You can install SDPcheck on a TeamServer or locally on your PC (RFL will auto-up
 
 We recommend to use a team share 'ToolsShare' on a TeamServer `\\TeamServer`, in order to minimize monthly maintenance.
 If you are sharing the RFL scripts on a different \\TeamServer\ToolsShare adjust line $RFLroot in \\TeamServer\ToolsShare\RFL\_SDPcheck.ini, and also replace 'localhost\\ToolsShare'  in file Rfl-Check_ShellExtension.reg
+
 The line for $RFLroot should reflect your actual share location
 
 	$RFLroot = "\\localhost\ToolsShare\RFL\"
