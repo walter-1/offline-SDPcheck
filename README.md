@@ -1,7 +1,7 @@
 # offline-SDPcheck
 PowerShell based script set for analysis of SDP reports (former known as RFLcheck)
 
-**Download** latest version from aka.ms/getRFL (or  https://github.com/walter-1/offline-SDPcheck/releases/ )
+**Download** latest version from https://aka.ms/getRFL
 
 ## Purpose
 rapidly determine missing MS hotfixes or monthly cumulative updates on server or client machines, and more automated checks...
